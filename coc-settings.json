@@ -1,0 +1,28 @@
+{
+  "javascript.suggestionActions.enabled": false,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+  "diagnostic.displayByAle": true,
+  "vetur.format.styleInitialIndent": true,
+  "vetur.format.scriptInitialIndent": true,
+  "languageserver": {
+    "dockerfile": {
+      "command": "docker-langserver",
+      "filetypes": ["dockerfile"],
+      "args": ["--stdio"]
+    },
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
+    },
+    "efm": {
+      "command": "efm-langserver",
+      "args": [],
+      "filetypes": ["vim", "eruby", "markdown"]
+    }
+  }
+}
